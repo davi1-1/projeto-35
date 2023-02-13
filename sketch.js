@@ -84,6 +84,8 @@ function setup() {
 
  // escreva um bloco de código correto para adicionar um botão para cortar a corda 
   button2.mouseClicked(drop);
+  button.mouseClicked(remove_rope);
+
 
   ellipseMode(RADIUS);
 }
